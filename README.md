@@ -1,4 +1,47 @@
-# ProbeScope
+![probescope_logo](https://github.com/user-attachments/assets/a7be7385-371e-47a8-ac26-ec86f4d01603)# ProbeScope
+
+![Uploadin<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="680" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background dark square -->
+  <rect x="88" y="88" width="504" height="504" rx="78" fill="#12121C"/>
+  <rect x="92" y="92" width="496" height="496" rx="74" fill="none" stroke="#252540" stroke-width="2"/>
+
+  <!-- P letter (geometric filled path, even-odd rule creates bowl void) -->
+  <path fill-rule="evenodd" fill="#4DD0B1"
+    d="M 107 468
+       L 107 212
+       L 264 212
+       Q 349 212 349 282
+       Q 349 352 264 352
+       L 152 352
+       L 152 468
+       Z
+       M 152 254
+       L 237 254
+       Q 304 254 304 282
+       Q 304 310 237 310
+       L 152 310
+       Z"/>
+
+  <!-- S letter (thick geometric stroke path) -->
+  <path d="M 531 235
+           L 464 235
+           Q 391 235 391 290
+           Q 391 345 459 345
+           L 495 345
+           Q 550 345 550 400
+           Q 550 445 483 445
+           L 399 445"
+    fill="none"
+    stroke="#4DD0B1"
+    stroke-width="46"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+</svg>
+g probescope_logo.svg…]()
+
 
 A command-line tool for generating per-gene coverage track plots from BAM files, overlaid on panel target BED annotations with MANE-Select exon models.
 
